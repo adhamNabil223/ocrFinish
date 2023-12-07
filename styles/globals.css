@@ -1,0 +1,108 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.container{
+  text-align: right;
+}
+
+.direction{
+    direction: rtl ;
+}
+.height{
+    background-color: #e5e5e5;
+    padding: 5px;
+    flex: 0.5;
+}
+input{
+    background: transparent;
+}
+.theDocument{
+    background-color: #e5e5e5;
+    width: 100%;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-top: 0;
+}
+.head{
+    background-color: #1f497d !important;
+}
+.details{
+    background-color: #e5e5e5 !important;
+    margin-top: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center !important;
+    color: white;
+}
+
+.certficateTable{
+    width: 100%;
+}
+.patients{
+    background-color: #5b9bd5 !important;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    gap: 30px;
+}
+.modal {
+    font-size: 12px;
+    background: #243e56;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+    color: black;
+  }
+ 
+  .popup-overlay{
+    background: #00000094;
+  }
+
+  tr td:first-child {
+    margin-right: 10px; /* Adjust the value to set the desired space between th and td */
+}
